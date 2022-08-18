@@ -12,6 +12,17 @@
         <servlet-name>Bservlet</servlet-name>
         <servlet-class>com.chenxing.controller.Bservlet</servlet-class>
     </servlet>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.chenxing.controller.LoginServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login.do</url-pattern>
+    </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>Aservlet</servlet-name>
         <url-pattern>/a.do</url-pattern>
