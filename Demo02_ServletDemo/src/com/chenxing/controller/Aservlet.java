@@ -13,7 +13,9 @@ import java.io.IOException;
  * @date ：Created in 16/08/2022 11:44
  */
 public class Aservlet extends HttpServlet {
-    @Override
+    public Aservlet(){
+        System.out.println("Servlet 被创建了！");
+    }
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // super.service(req, resp);
         System.out.println("This is A Servlet!");

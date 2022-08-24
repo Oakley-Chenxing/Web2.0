@@ -6,6 +6,7 @@
     <servlet>
         <servlet-name>Aservlet</servlet-name>
         <servlet-class>com.chenxing.controller.Aservlet</servlet-class>
+        <load-on-startup>9527</load-on-startup>
 
     </servlet>
     <servlet>
